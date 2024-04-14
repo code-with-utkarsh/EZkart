@@ -1,0 +1,112 @@
+.product-details {
+  margin-top: 100px !important;
+  margin-bottom : 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+}
+
+.product-detail-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product-detail-bottom .select-quantity {
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.product-detail-bottom .btn {
+  flex: 3;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.card-img-top{
+  object-fit: contain;
+}
+
+/*=============================
+similar products 
+=============================== */
+
+.similar-products {
+  margin-bottom: 50px !important;
+  margin-top:50px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*=============================
+Reviews
+=============================== */
+
+/* big screen Sidebar break */
+@media (min-width: 768px) {
+  .product-review .border-left{
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    height: 100vh;
+    overflow: auto;
+    z-index: 2;
+    align-self: flex-start;
+  }
+}
+
+.product-review {
+  margin : 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-review .card{
+  background-color: rgba(253, 247, 247, 0.097);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.product-review .border-left {
+  border-left: 1px solid #ccc;
+}
+
+.product-review .other-review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product-review .other-review .card{
+  width: 18rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product-review .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-review .button-container .btn {
+  flex-grow: 1;
+  padding: 5px 0px;
+  margin: 0px 5px;
+  color: rgb(19, 239, 195);
+  font-weight: 500;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,69 @@
+.card-component {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-component .card-name-price, .card-component .card-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-component .card-price {
+  color: green;
+  font-weight: bold;
+}
+
+.card-component button {
+  border-radius: 0;
+  /* width: 100%; */
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-component .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.card-component .card img:hover {
+  transform: scale(0.9);
+}
+
+.card-component .card-img-top {
+  height: 300px !important;
+}
+
+.card-component .add-to-cart-btn {
+  background-color: #ff9f00;
+}
+
+.card-component .more-details-btn {
+  background-color:#fb641b;
+}
+
+/* button bottom  */
+
+.card-component .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-component .card-bottom {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card-component .card-bottom .select-quantity {
+  margin-bottom: 10px;      
+  flex : 1;
+}
+
+.card-component .card-bottom .btn {
+  margin-bottom: 10px;      
+  flex : 3;
+}

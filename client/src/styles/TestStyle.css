@@ -1,0 +1,114 @@
+.H_dash {
+  margin-top: 60px !important;
+}
+
+.home-page {
+  margin: 0         !important;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-page .allProduct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.home-page h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+
+/* ==================
+filters
+===================== */
+
+.filters {
+  background-color: #406cae;
+  margin-bottom: 40px;
+}
+
+/* big screen Sidebar break */
+@media (min-width: 768px) {
+.filters {
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  height: 100vh;
+  padding-top:75px ;
+  z-index: 2;
+  align-self: flex-start;
+  overflow: auto;
+}
+}
+
+.filters .apply-button {
+  background-color: rgb(20, 182, 39);
+  color: rgb(2, 8, 18);
+  border-radius: 30px;
+  padding: 0.5rem 0px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.filters .apply-button:hover {
+  background-color: rgb(25, 156, 91);
+}
+
+.filters .reset-button {
+  background-color: rgb(243, 128, 34);
+  color: rgb(2, 8, 18);
+  border-radius: 30px;
+  padding: 0.5rem 0px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.filters .reset-button:hover {
+  background-color: rgb(235, 156, 91);
+}
+
+.filters .filter-option-text {
+  font-size: 20px;
+}
+
+.filters .accordion-button {
+  background-color: rgba(104, 227, 245, 0.685);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.filters .collapsed {
+  background-color: rgba(104, 227, 245, 0.685);
+}
+
+.filters .accordion-collapse {
+  background-color: rgba(167, 205, 237, 0.685);
+}
+
+.filters .ant-checkbox-wrapper {
+  margin: 2px;
+}
+
+.filters .ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters .ant-checkbox .ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  border-color: red;
+}
+
+.filters .ant-radio-wrapper .ant-radio-inner {
+  width: 20px;
+  height: 20px;
+  border-color: red;
+}

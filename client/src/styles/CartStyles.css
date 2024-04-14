@@ -1,0 +1,82 @@
+.cart-page {
+  margin-top: 64px;
+}
+
+.cart-page .body {
+  margin: 20px;
+}
+
+.cart-page h1 {
+  padding: 15px !important;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  background-color: rgba(0, 0, 255, 0.072) !important;
+}
+
+.cart-page h1 > p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cart-page .card-mid,.cart-page .card-right {
+  background-color: rgba(128, 128, 128, 0.097);
+}
+
+.cart-page .card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin : 15px !important;
+}
+
+.cart-page .card-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-page .card-mid{
+  display: flex;
+  align-items: center;
+}
+
+.cart-page .card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-page .cart-summary {
+  text-align: center;
+}
+
+.cart-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+
+.cart-page .p-name {
+  color: rgb(90, 89, 89);
+  font-size: large;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.cart-page .p-category {
+  margin-bottom: 5px;
+}
+
+.cart-page .card-text {
+  color: rgb(90, 89, 89);
+  margin-bottom: 10px;
+}
+
+.cart-page .card img {
+  margin: 10px 0px;
+}
+
+.cart-page .card img:hover {
+  transform: scale(1.1);
+}
