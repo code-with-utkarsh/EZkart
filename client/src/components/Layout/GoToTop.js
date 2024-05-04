@@ -11,7 +11,8 @@ const GoToTop = () => {
 
   const listenToScroll = () => {
     let heightToHidden = 20;
-    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
 
     if (winScroll > heightToHidden) {
       setIsVisible(true);
