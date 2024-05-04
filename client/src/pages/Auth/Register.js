@@ -53,7 +53,7 @@ const Register = () => {
     <Layout title="Register - Ecommer App">
       <div className="form-container" style={{ minHeight: "90vh" }}>
         <form onSubmit={handleSubmit}>
-          <h4 className="title">REGISTER FORM</h4>
+          <h4 className="title">REGISTRATION FORM</h4>
           <div className="mb-3">
             <input
               type="text"
@@ -61,7 +61,7 @@ const Register = () => {
               onChange={(e) => setName(e.target.value)}
               className="form-control"
               id="exampleInputName1"
-              placeholder="Enter Your Name"
+              placeholder="Your Name"
               required
               autoFocus
             />
@@ -73,7 +73,7 @@ const Register = () => {
               onChange={(e) => setEmail(e.target.value)}
               className="form-control"
               id="exampleInputEmail1"
-              placeholder="Enter Your Email "
+              placeholder="Your Email "
               required
             />
           </div>
@@ -84,7 +84,7 @@ const Register = () => {
               onChange={(e) => setPassword(e.target.value)}
               className="form-control"
               id="exampleInputPassword1"
-              placeholder="Enter Your Password"
+              placeholder="Your Password"
               required
             />
           </div>
@@ -95,7 +95,7 @@ const Register = () => {
               onChange={(e) => setPhone(e.target.value)}
               className="form-control"
               id="exampleInputPhone1"
-              placeholder="Enter Your Phone"
+              placeholder="Your Phone"
               required
             />
           </div>
@@ -106,7 +106,7 @@ const Register = () => {
               onChange={(e) => setAddress(e.target.value)}
               className="form-control"
               id="exampleInputAddress1"
-              placeholder="Enter Your Address"
+              placeholder="Your Address"
               required
             />
           </div>
@@ -117,13 +117,16 @@ const Register = () => {
               onChange={(e) => setAnswer(e.target.value)}
               className="form-control"
               id="exampleInputAnswer1"
-              placeholder="What is Your Favorite sports"
+              placeholder="What is Your Favorite Food"
               required
             />
           </div>
           <button type="submit" className="btn btn-primary">
             REGISTER
           </button>
+          <div class="message">
+        <p>Already registered? <a href="/login">Login here</a></p>
+    </div>
         </form>
       </div>
     </Layout>

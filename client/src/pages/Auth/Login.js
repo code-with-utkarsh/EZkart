@@ -44,7 +44,7 @@ const Login = () => {
     <Layout title="Register - Ecommer App">
       <div className="form-container " style={{ minHeight: "90vh" }}>
         <form onSubmit={handleSubmit}>
-          <h4 className="title">LOGIN FORM</h4>
+          <h4 className="title">LOGIN</h4>
 
           <div className="mb-3">
             <input
@@ -54,7 +54,7 @@ const Login = () => {
               onChange={(e) => setEmail(e.target.value)}
               className="form-control"
               id="exampleInputEmail1"
-              placeholder="Enter Your Email "
+              placeholder="Your Email "
               required
             />
           </div>
@@ -65,7 +65,7 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
               className="form-control"
               id="exampleInputPassword1"
-              placeholder="Enter Your Password"
+              placeholder="Your Password"
               required
             />
           </div>
@@ -84,6 +84,10 @@ const Login = () => {
           <button type="submit" className="btn btn-primary">
             LOGIN
           </button>
+          <div class="message">
+        <p>Not registered? <a href="/register">Create an account</a></p>
+    </div>
+    
         </form>
       </div>
     </Layout>
